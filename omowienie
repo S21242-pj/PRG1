@@ -1,0 +1,65 @@
+struct Command
+
+struktury cpp
+##################################
+
+
+struct Arbuz {
+	long int pestki; 
+	double miąższ;
+	double woda;
+	bool skórka; 
+}
+
+
+###########################
+
+struct Slon {
+	
+	bool traba;
+	std::pair<bool,bool> ciosy;
+	Plec plec;
+	long double waga;
+	Int przyspieszenie;
+}
+
+
+enum class Plec{
+
+	male;
+	female;	
+}
+
+
+
+######################333
+
+Slon slon;
+
+	slon.waga = 10000;	
+	slon.plec = Plec::male;
+
+
+###########
+
+struct slon
+{
+
+	Slon(double w, Plec p)
+		: waga(w)
+		; plec(p)
+	{};
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
